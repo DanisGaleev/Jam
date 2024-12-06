@@ -1,0 +1,93 @@
+[gd_scene load_steps=3 format=3 uid="uid://cg7rslvonrmmm"]
+
+[ext_resource type="Script" path="res://thema.gd" id="1_mm71g"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_u2fp3"]
+bg_color = Color(0.396288, 0.661947, 0.581721, 1)
+
+[node name="Thema" type="Panel"]
+custom_minimum_size = Vector2(576, 324)
+offset_right = 1152.0
+offset_bottom = 648.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_u2fp3")
+script = ExtResource("1_mm71g")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 20
+theme_override_constants/margin_bottom = 20
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="Author" type="Label" parent="MarginContainer/VBoxContainer/HBoxContainer2"]
+custom_minimum_size = Vector2(80, 0)
+layout_mode = 2
+size_flags_vertical = 1
+theme_override_font_sizes/font_size = 30
+text = "author"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Date" type="Label" parent="MarginContainer/VBoxContainer/HBoxContainer2"]
+custom_minimum_size = Vector2(80, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+text = "10-23-4500"
+horizontal_alignment = 1
+
+[node name="Control" type="Control" parent="MarginContainer/VBoxContainer/HBoxContainer2"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_stretch_ratio = 6.81
+
+[node name="Title" type="Label" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 1
+theme_override_font_sizes/font_size = 40
+text = "TITLE"
+vertical_alignment = 1
+
+[node name="Body" type="Label" parent="MarginContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 80)
+layout_mode = 2
+size_flags_stretch_ratio = 2.07
+text = "Some textSome textSome textSome textSome tSome textSome textSome textSome textSome tSome textSome textSome textSome textSome tSome textSome textSome textSome textSome tSome textSome textSome textSome textSome tSome textSome textSome textSome textSome tSome textSome textSome textSome textSome tSome textSome textSome textSome textSome tSome textSome textSome textSome textSome tSome textSome textSome textSome textSome tSome textSome textSome textSome textSome tSome textSome textSome textSome textSome tSome textSome textSome textSome textSome tSome textSome textSome textSome textSome tSome textSome textSome textSome textSome t"
+autowrap_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 10
+
+[node name="Comments" type="Button" parent="MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Comment"
+
+[node name="Views" type="Label" parent="MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "100"
+
+[node name="Share" type="Button" parent="MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Share
+"
+
+[node name="Container" type="Container" parent="MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_stretch_ratio = 8.53
+
+[connection signal="pressed" from="MarginContainer/VBoxContainer/HBoxContainer/Comments" to="." method="_on_comments_pressed"]

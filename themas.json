@@ -1,0 +1,36 @@
+{
+  "posts": [
+	{
+	  "id": 1,
+	  "title": "Название поста",
+	  "publication_date": "2024-12-06",
+	  "photo": null,
+	  "body": "Текст поста",
+	  "author": "Автор поста",
+	  "views": 500,
+	  "comments": [
+		{
+		  "user_name": "Иван Иванов",
+		  "comment_date": "2024-12-06T14:30:00",
+		  "text": "Отличный пост!"
+		}
+	  ]
+	},
+	{
+	  "id": 2,
+	  "title": "поста",
+	  "publication_date": "2024-12-06",
+	  "photo": null,
+	  "body": "Текст поста",
+	  "author": "Автор поста",
+	  "views": 50,
+	  "comments": [
+		{
+		  "user_name": "Иван Иванов",
+		  "comment_date": "2024-12-06T14:30:00",
+		  "text": "Отличный пост!"
+		}
+	  ]
+	}
+  ]
+}

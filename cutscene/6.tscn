@@ -1,0 +1,23 @@
+[gd_scene load_steps=2 format=3 uid="uid://cndn04qb85b74"]
+
+[ext_resource type="Script" path="res://6.gd" id="1_3mkfw"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_3mkfw")
+
+[node name="sixth_button" type="Button" parent="."]
+offset_right = 1152.0
+offset_bottom = 648.0
+text = "6"
+
+[node name="Label" type="Label" parent="."]
+offset_right = 1133.0
+offset_bottom = 613.0
+theme_override_font_sizes/font_size = 300
+
+[node name="sixth_timer" type="Timer" parent="."]
+wait_time = 5.0
+autostart = true
+
+[connection signal="pressed" from="sixth_button" to="." method="_on_sixth_button_pressed"]
+[connection signal="timeout" from="sixth_timer" to="." method="_on_sixth_timer_timeout"]

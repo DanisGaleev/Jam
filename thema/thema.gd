@@ -4,6 +4,7 @@ extends Panel
 @onready var date = $MarginContainer/VBoxContainer/HBoxContainer2/Date
 @onready var title = $MarginContainer/VBoxContainer/Title
 @onready var body = $MarginContainer/VBoxContainer/Body
+@onready var image: TextureRect = $MarginContainer/VBoxContainer/Image
 @onready var views = $MarginContainer/VBoxContainer/HBoxContainer/Views
 
 var comments: Array = []

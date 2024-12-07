@@ -4,7 +4,7 @@
 	  "id": 1,
 	  "title": "Название поста",
 	  "publication_date": "2024-12-06",
-	  "photo": null,
+	  "photo": "res://forest.jpg",
 	  "body": "Текст поста",
 	  "author": "Автор поста",
 	  "views": 500,
@@ -21,7 +21,23 @@
 	  "title": "поста",
 	  "publication_date": "2024-12-06",
 	  "photo": null,
-	  "body": "Текст поста",
+	  "body": "  woehw ewfoiwhf wepofhqwog  iwhwo  ww ww wohwowowo wo wohwohwo wo wowohow hwoghwohgo  eoeoeh  oehoe oehfoe eogheo eooq eoeo oefheo  wo woh wowo owwogh w owhwo wo wo owhfwhf wo wohfwohfow wohwoho wo ow owfhow wo owhfow w ohwohowhgo wohgow ow wowhfowho wo  поста",
+	  "author": "Автор поста",
+	  "views": 50,
+	  "comments": [
+		{
+		  "user_name": "Иван Иванов",
+		  "comment_date": "2024-12-06T14:30:00",
+		  "text": "Отличный пост!"
+		}
+	  ]
+	},
+	{
+	  "id": 3,
+	  "title": "поста",
+	  "publication_date": "2024-12-06",
+	  "photo": "res://forest.jpg",
+	  "body": "Текст  woehw ewfoiwhf wepofhqwog  iwhwo  ww ww wohwowowo wo wohwohwo wo wowohow hwoghwohgo  eoeoeh  oehoe oehfoe eogheo eooq eoeo oefheo  wo woh wowo owwogh w owhwo wo wo owhfwhf wo wohfwohfow wohwoho wo ow owfhow wo owhfow w ohwohowhgo wohgow ow wowhfowho wo ",
 	  "author": "Автор поста",
 	  "views": 50,
 	  "comments": [

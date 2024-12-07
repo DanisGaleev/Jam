@@ -11,4 +11,4 @@ var comments: Array = []
 func _on_comments_pressed():
 	Main.theme_title = title.text
 	Main.theme_body = body.text
-	get_tree().change_scene_to_file("res://theme_view.tscn")
+	get_tree().change_scene_to_file("res://thema/theme_view.tscn")

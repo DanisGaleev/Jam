@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://cg7rslvonrmmm"]
 
-[ext_resource type="Script" path="res://thema.gd" id="1_mm71g"]
+[ext_resource type="Script" path="res://thema/thema.gd" id="1_mm71g"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_u2fp3"]
 bg_color = Color(0.396288, 0.661947, 0.581721, 1)

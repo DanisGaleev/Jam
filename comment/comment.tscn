@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://cu3q4vfn2757"]
 
-[ext_resource type="Script" path="res://comment.gd" id="1_dikkw"]
+[ext_resource type="Script" path="res://comment/comment.gd" id="1_dikkw"]
 
 [node name="Comment" type="Panel"]
 custom_minimum_size = Vector2(400, 120)

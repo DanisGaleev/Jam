@@ -11,7 +11,7 @@ func _ready():
 	if x == 2:
 		for c in replies:
 			print("X")
-			var com = preload("res://comment.tscn").instantiate()
+			var com = preload("res://comment/comment.tscn").instantiate()
 			replies_m.add_child(com)
 			com.text.text = c
 			

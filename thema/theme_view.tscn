@@ -1,8 +1,8 @@
 [gd_scene load_steps=4 format=3 uid="uid://8tnx4g0wsybe"]
 
-[ext_resource type="PackedScene" uid="uid://cg7rslvonrmmm" path="res://thema.tscn" id="1_budfh"]
-[ext_resource type="Script" path="res://theme_view.gd" id="1_wy7a0"]
-[ext_resource type="PackedScene" uid="uid://cu3q4vfn2757" path="res://comment.tscn" id="2_2cn8o"]
+[ext_resource type="PackedScene" uid="uid://cg7rslvonrmmm" path="res://thema/thema.tscn" id="1_budfh"]
+[ext_resource type="Script" path="res://thema/theme_view.gd" id="1_wy7a0"]
+[ext_resource type="PackedScene" uid="uid://cu3q4vfn2757" path="res://comment/comment.tscn" id="2_2cn8o"]
 
 [node name="Panel" type="Panel"]
 anchors_preset = 15

@@ -1,6 +1,6 @@
 [gd_scene load_steps=7 format=3 uid="uid://c4fskll68dtks"]
 
-[ext_resource type="Script" path="res://game_1.gd" id="1_wj72h"]
+[ext_resource type="Script" path="res://minigames/game_1.gd" id="1_wj72h"]
 [ext_resource type="Texture2D" uid="uid://c7wyx60p8wq0y" path="res://forest.jpg" id="2_fwcqo"]
 
 [sub_resource type="Gradient" id="Gradient_2i7or"]

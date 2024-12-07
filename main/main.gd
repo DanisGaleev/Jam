@@ -7,7 +7,7 @@ func _ready():
 	json.parse(file.get_as_text())
 	
 	for post in json.data.posts:
-		var pst = preload("res://thema.tscn").instantiate()
+		var pst = preload("res://thema/thema.tscn").instantiate()
 		
 		get_node('MarginContainer/VBoxContainer/ScrollContainer/VBoxContainer').add_child(pst)
 		

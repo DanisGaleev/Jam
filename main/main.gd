@@ -51,4 +51,3 @@ func _on_send_comment(post: Dictionary, post_node: Node):
 	comment_label.text = new_comment.user_name + ": " + new_comment.text
 	post_node.comments_container.add_child(comment_label)
 	input_field.text = ""
-

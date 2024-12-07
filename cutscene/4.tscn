@@ -1,0 +1,23 @@
+[gd_scene load_steps=2 format=3 uid="uid://bxotvmjuwwn6o"]
+
+[ext_resource type="Script" path="res://4.gd" id="1_ximmt"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_ximmt")
+
+[node name="fourth_button" type="Button" parent="."]
+offset_right = 1152.0
+offset_bottom = 648.0
+text = "4"
+
+[node name="Label" type="Label" parent="."]
+offset_right = 1111.0
+offset_bottom = 569.0
+theme_override_font_sizes/font_size = 300
+
+[node name="fourth_timer" type="Timer" parent="."]
+wait_time = 5.0
+autostart = true
+
+[connection signal="pressed" from="fourth_button" to="." method="_on_fourth_button_pressed"]
+[connection signal="timeout" from="fourth_timer" to="." method="_on_fourth_timer_timeout"]

@@ -1,0 +1,23 @@
+[gd_scene load_steps=2 format=3 uid="uid://cb4a7b47f7d55"]
+
+[ext_resource type="Script" path="res://2.gd" id="1_oibqb"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_oibqb")
+
+[node name="second_button" type="Button" parent="."]
+offset_right = 1152.0
+offset_bottom = 648.0
+
+[node name="Label" type="Label" parent="."]
+offset_right = 1095.0
+offset_bottom = 594.0
+theme_override_font_sizes/font_size = 300
+text = "2"
+
+[node name="second_timer" type="Timer" parent="."]
+wait_time = 5.0
+autostart = true
+
+[connection signal="pressed" from="second_button" to="." method="_on_second_button_pressed"]
+[connection signal="timeout" from="second_timer" to="." method="_on_second_timer_timeout"]

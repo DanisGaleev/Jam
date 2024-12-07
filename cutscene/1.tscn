@@ -1,0 +1,24 @@
+[gd_scene load_steps=2 format=3 uid="uid://bqqaw5xcn3noc"]
+
+[ext_resource type="Script" path="res://1.gd" id="1_k8nek"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_k8nek")
+
+[node name="first_button" type="Button" parent="."]
+offset_right = 1152.0
+offset_bottom = 648.0
+scale = Vector2(1.00089, 1)
+
+[node name="Label" type="Label" parent="."]
+offset_right = 1152.0
+offset_bottom = 682.0
+theme_override_font_sizes/font_size = 300
+text = "1"
+
+[node name="first_timer" type="Timer" parent="."]
+wait_time = 5.0
+autostart = true
+
+[connection signal="pressed" from="first_button" to="." method="_on_first_button_pressed"]
+[connection signal="timeout" from="first_timer" to="." method="_on_first_timer_timeout"]

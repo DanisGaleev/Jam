@@ -1,7 +1,14 @@
-[gd_scene load_steps=7 format=3 uid="uid://c4fskll68dtks"]
+[gd_scene load_steps=9 format=3 uid="uid://c4fskll68dtks"]
 
 [ext_resource type="Script" path="res://minigames/game_1.gd" id="1_wj72h"]
 [ext_resource type="Texture2D" uid="uid://c7wyx60p8wq0y" path="res://forest.jpg" id="2_fwcqo"]
+
+[sub_resource type="Gradient" id="Gradient_t7qn4"]
+offsets = PackedFloat32Array(0.507042)
+colors = PackedColorArray(0.529067, 0.529067, 0.529067, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_j1ttl"]
+gradient = SubResource("Gradient_t7qn4")
 
 [sub_resource type="Gradient" id="Gradient_2i7or"]
 offsets = PackedFloat32Array(0.640845, 0.795775, 1)
@@ -52,72 +59,84 @@ columns = 4
 [node name="TextureButton" type="TextureButton" parent="MarginContainer/MarginContainer/GridContainer"]
 custom_minimum_size = Vector2(120, 120)
 layout_mode = 2
+texture_hover = SubResource("GradientTexture2D_j1ttl")
 ignore_texture_size = true
 stretch_mode = 0
 
 [node name="TextureButton2" type="TextureButton" parent="MarginContainer/MarginContainer/GridContainer"]
 custom_minimum_size = Vector2(120, 120)
 layout_mode = 2
+texture_hover = SubResource("GradientTexture2D_j1ttl")
 ignore_texture_size = true
 stretch_mode = 0
 
 [node name="TextureButton3" type="TextureButton" parent="MarginContainer/MarginContainer/GridContainer"]
 custom_minimum_size = Vector2(120, 120)
 layout_mode = 2
+texture_hover = SubResource("GradientTexture2D_j1ttl")
 ignore_texture_size = true
 stretch_mode = 0
 
 [node name="TextureButton4" type="TextureButton" parent="MarginContainer/MarginContainer/GridContainer"]
 custom_minimum_size = Vector2(120, 120)
 layout_mode = 2
+texture_hover = SubResource("GradientTexture2D_j1ttl")
 ignore_texture_size = true
 stretch_mode = 0
 
 [node name="TextureButton5" type="TextureButton" parent="MarginContainer/MarginContainer/GridContainer"]
 custom_minimum_size = Vector2(120, 120)
 layout_mode = 2
+texture_hover = SubResource("GradientTexture2D_j1ttl")
 ignore_texture_size = true
 stretch_mode = 0
 
 [node name="TextureButton6" type="TextureButton" parent="MarginContainer/MarginContainer/GridContainer"]
 custom_minimum_size = Vector2(120, 120)
 layout_mode = 2
+texture_hover = SubResource("GradientTexture2D_j1ttl")
 ignore_texture_size = true
 stretch_mode = 0
 
 [node name="TextureButton7" type="TextureButton" parent="MarginContainer/MarginContainer/GridContainer"]
 custom_minimum_size = Vector2(120, 120)
 layout_mode = 2
+texture_hover = SubResource("GradientTexture2D_j1ttl")
 ignore_texture_size = true
 stretch_mode = 0
 
 [node name="TextureButton8" type="TextureButton" parent="MarginContainer/MarginContainer/GridContainer"]
 custom_minimum_size = Vector2(120, 120)
 layout_mode = 2
+texture_hover = SubResource("GradientTexture2D_j1ttl")
 ignore_texture_size = true
 stretch_mode = 0
 
 [node name="TextureButton9" type="TextureButton" parent="MarginContainer/MarginContainer/GridContainer"]
 custom_minimum_size = Vector2(120, 120)
 layout_mode = 2
+texture_hover = SubResource("GradientTexture2D_j1ttl")
 ignore_texture_size = true
 stretch_mode = 0
 
 [node name="TextureButton10" type="TextureButton" parent="MarginContainer/MarginContainer/GridContainer"]
 custom_minimum_size = Vector2(120, 120)
 layout_mode = 2
+texture_hover = SubResource("GradientTexture2D_j1ttl")
 ignore_texture_size = true
 stretch_mode = 0
 
 [node name="TextureButton11" type="TextureButton" parent="MarginContainer/MarginContainer/GridContainer"]
 custom_minimum_size = Vector2(120, 120)
 layout_mode = 2
+texture_hover = SubResource("GradientTexture2D_j1ttl")
 ignore_texture_size = true
 stretch_mode = 0
 
 [node name="TextureButton12" type="TextureButton" parent="MarginContainer/MarginContainer/GridContainer"]
 custom_minimum_size = Vector2(120, 120)
 layout_mode = 2
+texture_hover = SubResource("GradientTexture2D_j1ttl")
 ignore_texture_size = true
 stretch_mode = 0
 

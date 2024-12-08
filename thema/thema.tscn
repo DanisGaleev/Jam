@@ -81,11 +81,6 @@ stretch_mode = 5
 layout_mode = 2
 size_flags_vertical = 10
 
-[node name="Comments" type="Button" parent="MarginContainer/VBoxContainer/HBoxContainer"]
-layout_mode = 2
-size_flags_horizontal = 3
-text = "Comment"
-
 [node name="Views" type="Label" parent="MarginContainer/VBoxContainer/HBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -97,9 +92,12 @@ size_flags_horizontal = 3
 text = "Share
 "
 
-[node name="Container" type="Container" parent="MarginContainer/VBoxContainer/HBoxContainer"]
+[node name="comments_container" type="VBoxContainer" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
-size_flags_horizontal = 3
-size_flags_stretch_ratio = 8.53
 
-[connection signal="pressed" from="MarginContainer/VBoxContainer/HBoxContainer/Comments" to="." method="_on_comments_pressed"]
+[node name="comment_input" type="LineEdit" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="send_button" type="Button" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+text = "Добавить комментарий"
